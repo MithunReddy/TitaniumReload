@@ -1,0 +1,27 @@
+
+".container" : {
+  
+}
+"LoginLbl": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	//color: "#000"
+} 
+
+"#LoginLbl": {
+	font: {
+		fontSize: 20,
+		fontFamily:'Helvetica Bold'
+	}
+}
+
+"#navgroup": {
+ 
+}
+"navgroup": {
+
+} 
+
+"#mainWin": {
+
+}

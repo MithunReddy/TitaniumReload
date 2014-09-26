@@ -1,0 +1,39 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	height:'auto',
+    width:'auto',
+    top:'20%',
+    left:'15%',
+    right:'15%',
+    color: 'white',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER   
+} 
+
+"#label": {
+	font: {
+		fontSize: 30
+	}
+}
+
+"#Logo": {
+   top:'15%',
+   left:"30",
+   right:"30",
+   height:"300",
+   backgroundColor:"red",
+  // image:'/images/myimage.png'
+}
+
+
+// "#ImgView": {
+ // top:'0%',
+ // left:'0%',
+ // right:'0%',
+ // bottom:'10%',
+ // backgroundImage:'/app/bg1.png',
+ // backgroundColor:"#0e77be"
+ // //borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+// // borderColor:"#a7a4a4"
+// }

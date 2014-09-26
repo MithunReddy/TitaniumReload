@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="DashBoard" title="Dash Board" barColor="#3a6cbf" navTintColor="white">	
+	<View class="container" backgroundColor="#eef0f0">
+	 <Button top='10%' left='10%' right='10%' backgroundColor="red" height='30%'>One</Button>
+	 <Button top='50%' left='10%' right='10%' backgroundColor="green" height='30%'>Two</Button>
+	</View>
+	</Window>>
+</Alloy>

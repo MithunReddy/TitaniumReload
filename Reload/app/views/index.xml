@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" backgroundColor="#3a6cbf" backgroundImage="one.9.png">
+		<ImageView id="Logo"  top='0%' bottom='10%' width="320" image="one.9.png" platform="Android" backgroundImage="Images/one.png"></ImageView>
+		<Label id="label" onClick="doClick">Welcome user !!\nPlease Choose a option.</Label>
+		<Button top='90%' bottom='0%' left='0%' width="160" backgroundColor="red" borderColor="black" tintColor="white" onClick="doClick">Login</Button>
+		<Button top='90%' bottom='0%' left="160" width="160" backgroundColor="red" borderColor="black" tintColor="white" onClick="doClick">Register</Button>
+		<!-- <View  id = "ImgView"></View> -->
+	</Window>
+</Alloy> co

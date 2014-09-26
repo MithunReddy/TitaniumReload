@@ -1,0 +1,36 @@
+<Alloy>
+	<!-- <Window> -->
+		<!-- iOS  -->
+		<NavigationWindow id="navgroup" platform="ios">
+			<Window class="container" id="mainWin" title="Login">
+				<View backgroundColor="#3a6cbf">
+					<View backgroundColor="white" borderRadius="10" borderColor="black" top='20%' left= '5%' right='5%' bottom='25%'  viewShadowColor="#000000">
+						<Label left= '40%' width="100" top="10" height="30" id = "LoginLbl" right="30">Login</Label>
+						<TextField top="50" left="10" right="10" hintText="User Name" height="40"
+						borderStyle = Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+						o ></TextField>
+						<TextField top="100" left="10" right="10" hintText="Password" height="40" borderStyle = Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+						></TextField>
+						<Button backgroundColor="#3a6cbf" top="170" left="10" right="10" height="40" tintColor="white" borderRadius ="10" onClick="doClick">Login</Button>
+					</View>
+				</View>
+			</Window>
+		</NavigationWindow>
+
+		<!-- Android  -->
+		<Window class="container" id="mainWin" title="Login" platform="android">
+			<View backgroundColor="#3a6cbf">
+				<View backgroundColor="white" borderRadius="10" borderColor="black" top='20%' left= '5%' right='5%' bottom='25%'  viewShadowColor="#000000">
+					<Label left= '40%' width="100" top="10" height="30" id = "LoginLbl" right="30">Login</Label>
+					<TextField top="50" left="10" right="10" hintText="User Name" height="40"
+					borderStyle = Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+					o ></TextField>
+					<TextField top="100" left="10" right="10" hintText="Password" height="40" borderStyle = Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+					></TextField>
+					<Button backgroundColor="#3a6cbf" top="170" left="10" right="10" height="40" tintColor="white" borderRadius ="10" onClick="doClick">Login</Button>
+				</View>
+			</View>
+		</Window>
+
+	<!-- </Window> -->
+</Alloy>
